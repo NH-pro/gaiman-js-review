@@ -30,3 +30,20 @@ let lastName = 'Hanson';
 
 // kebob-case
 //let my-last-name = 'Hanson';
+
+
+/*
+* Expressions
+*
+* Some code the evaluates to a single value
+*/
+
+//              an expression
+console.log(`My name is`  + myName + ' ' + lastName);
+// console.log('My name is Neil Hanson);
+
+function add(n1, n2) {
+    return n1 + n2;
+}
+let result = add(5, 7);
+// let result = 12;
